@@ -1,17 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDOM from "react-dom";
+import {BrowserRouter, Route, Switch} from "react-router-dom";
+import App from "./app";
+import Vault from "./components/vault";
+import AuthComponent from "./components/authcomponent";
+import {ChakraProvider} from "@chakra-ui/react";
+
+/* This index file just provides different routes to components. This is the origin point. Any new route in the web app must be defined here.
+Do not forget to add route here when a new endpoint needs to be added to view a specific component in the future */
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <ChakraProvider>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={App}></Route>
+        <Route exact path="/auth" component={AuthComponent}></Route>
+        <Route exact path="/vaults/" component={Vault}></Route>
+      </Switch>
+    </BrowserRouter>
+    </ChakraProvider>,
+    document.getElementById("root")
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+    

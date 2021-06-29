@@ -1,0 +1,21 @@
+------------------
+PassMan - FrontEnd
+------------------
+
+This includes the code for the passman frontend project. This documents my attempt to write a decent enough frontend for my passman API backend so that it can be easily used. As expected, I need a lot of learning in the 
+UI Design space and my design is terrible as of now. :).
+
+The code for the frontend resides in the /src directory and all the components are in /src/components directory. 
+
+I have attempted to use ChakraUI with ReactJS and the description and login page seem to be looking like a late 90s website which I suppose could be considered good judging my miserable skill in design.
+Further notice is that I am thinking of porting it to Next.JS as it seems a little more simple when building such apps and having a built-in router certainly helps. 
+
+You can read a more detailed readme in /src/README.md where I have briefly described the components. The component code itself has been documented well enough for my understanding.
+If my documentation is not enough, please do let me know and I shall move further with the documentation effort post haste. :)
+
+If you would like any changes to this project or contribute, please do let me know via my email or raise an issue on the github page for this. I shall see them whenever possible and respond.
+
+Author: Sharan Varma
+Email: sharanvarma0@gmail.com
+
+
