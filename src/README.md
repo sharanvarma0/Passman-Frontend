@@ -1,23 +1,35 @@
 This is the code for my PassMan project and represents the front end part. As of now, still a work in progress. The main framework used is React JS. You may find all the components
 in specific files in the components folder. I have included a brief description about all the components here. They follow.
 
-Description: Display information about the passman project, setup instructions and login button.
-             Location: ./components/description.js
+Description 
+------------
+Display information about the passman project, setup instructions and login button.
+Location: ./components/description.js
 
-AuthComponent: Handle user authentication to the /users/ endpoint of the backend API. 
-               Location: ./components/authcomponent.js
+AuthComponent
+-------------
+Handle user authentication to the /users/ endpoint of the backend API. 
+Location: ./components/authcomponent.js
 
-Vault: Handle vault specific logic like listing vaults, creating vaults and fetching records from vaults.
-       Location: ./components/vault.js
+Vault
+-----
+Handle vault specific logic like listing vaults, creating vaults and fetching records from vaults.
+Location: ./components/vault.js
 
-Record: Identifies a single record in the vault. Handles logic for vault records. This is referred in the vault component and is a part of the same.
-        Location: ./components/record.js
+Record
+------
+Identifies a single record in the vault. Handles logic for vault records. This is referred in the vault component and is a part of the same.
+Location: ./components/record.js
 
-Form: A simple form based component defining a template used for authentication. 
-      Location: ./components/form.js
+Form
+----
+A simple form based component defining a template used for authentication. 
+Location: ./components/form.js
 
-Register: Handle registration of a new user to the backend.
-          Location: ./components/registercomponent.js
+Register
+--------
+Handle registration of a new user to the backend.
+Location: ./components/registercomponent.js
 
 As more components are added, they will be detailed here.
 
