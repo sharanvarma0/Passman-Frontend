@@ -1,6 +1,6 @@
 import React from "react";
 import axios from "axios";
-import {Redirect} from "react-router-dom";
+import {Redirect} from "react-router-dom"; // The redirect is required for redirecting the user to another page
 
 /* This register component defines a form for registering a new user into the passman backend API. The action undertaken is just posting new username and master password
 values to the /users/ endpoint which executes the create() method in the viewset to create a new user */
