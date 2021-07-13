@@ -3,7 +3,7 @@ import {Link as link} from "react-router-dom";
 import { Button, Box, Text, Flex, Spacer, Center, Square, Link } from "@chakra-ui/react";
 
 /* This component merely defines the description to be displayed when passman is accessed. There is no inherent logic as such in this component. It does however include a link
-to the auth component for accessing login from homepage */
+to the auth component for accessing login from homepage. I have used several ChakraUI components here as well to beautify it. As you may notice, I am not exactly a UI designer :) */
 
 class Description extends React.Component {
     render() {

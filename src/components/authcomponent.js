@@ -69,6 +69,7 @@ class AuthComponent extends React.Component {
     }
     
     // If authentication successful, fetch user to display while rendering
+    // Use localStorage API to store the API AUTH TOKEN for future requests. I assume I might move to sessionStorage sometime in the future
 
     fetch_user() {
         const instance = axios.create({
